@@ -48,7 +48,6 @@
     }
   }
 }
-
 @media screen and (min-width: 767px) and (max-width: 1025px) {
   .nav-list {
     padding: 0 12px !important;
@@ -57,7 +56,6 @@
     width: 160px !important;
   }
 }
-
 @media screen and (min-width: 426px) and (max-width: 1025px) {
   .nav-list {
     display: none;
@@ -66,9 +64,17 @@
     width: 120px !important;
   }
 }
-
 @media screen and (min-width: 320px) and (max-width: 425px) {
+  .navbar-right img{
+    width: 18px;
+  }
+  .navbar{
+    margin: 18px 0;
+  }
   .nav-list {
+    display: none;
+  }
+  button{
     display: none;
   }
   .logo {
