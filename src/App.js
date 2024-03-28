@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home"
 import Cart from './Pages/Cart/Cart';
 import PlaceOrder from './Pages/PlaceOrders/PlaceOrder';
- 
+
 
 function App() {
   return (
